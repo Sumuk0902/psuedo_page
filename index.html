@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        max-width: 90%;
+      }
+      header{
+        margin: 0 auto;
+        width: 85%;
+        height: 94px;
+        background-color: #1db954;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      li{
+        list-style: none;
+        font-size: 24px;
+        display: inline-flex;
+        
+      }
+      main{
+        max-height: 768px;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 10px;
+        width: 75%;
+      }
+      footer{
+        margin: 0 auto;
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      article{
+        background-color: antiquewhite;
+      }
+      section{
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px rgba(0,0,0,.3);
+        padding: 10px;
+      }
+      a:hover{
+         color: #1db954;
+      }
+      a:checked{
+         color: blue;
+
+      }
+      a{
+         color: darkorchid;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 >Welcome to Pseudo Spotify</h1>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <article>
+          <h2>Welcome to Spotify!</h2>
+         <p> Presenting The Lyrical Video Of The Widely Accepted Song "Abrar’s
+          Entry - Jamal Kudu" From The Highly Anticipated Film Animal. Starring
+          Ranbir Kapoor, Rashmika Mandanna, Anil Kapoor, Bobby Deol, Tripti
+          Dimri & Shakti Kapoor.</p>
+        </article>
+        <h3>Enjoy the music in below file</h3>
+        <audio
+          src="jamal_kudu.mp3" type="audio/mp3" controls 
+        ></audio>
+        <aside><pre> 
+          ♪full Song Available On♪ 
+            Spotify:<a href="https://bit.ly/3Ne0bGm" target="_blank">https://bit.ly/3Ne0bGm</a>  
+            JioSaavn: <a href="https://bit.ly/3NjtA1V" target="_blank">https://bit.ly/3NjtA1V</a> 
+            Hungama: <a href="https://bit.ly/4a5TLmA" target="_blank">https://bit.ly/4a5TLmA</a> 
+            Apple Music: <a href="https://bit.ly/480vSuQ" target="_blank">https://bit.ly/480vSuQ</a>
+            Amazon Prime Music: <a href="https://bit.ly/3uMkAMo" target="_blank">https://bit.ly/3uMkAMo</a>
+            Wynk: <a href="https://bit.ly/3uJs42K" target="_blank">https://bit.ly/3uJs42K</a>
+            YouTube Music: <a href="https://bit.ly/4a5TVu" target="_blank">https://bit.ly/4a5TVu</a>
+          </pre></aside>
+          <h3>Enjoy the video below</h3>
+          <video src="Jamal_video.mp4" controls width="30%" ></video>
+      </section>
+      
+    </main>
+    <footer>
+        <p>For more songs Contact me @boomboom</p>
+        <video id="gif" src="invite.gif" width="15%" autoplay></video>
+    </footer>
+  </body>
+</html>
